@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    min-height: 500px;
+    height: 100vh;
+}
+
+/* SHOWCASE */
+.showcase {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
+    height: 50%;
+}
+
+/* NAVIGATION */
+nav ul.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* PLACE1 */
+/* PLACE2 */
+/* PLACE3 */
+
+/* CONTACT */
+section.showcase, section, section.contact, form, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+/* FOOTER */
+
+
+/* COPYRIGHT */
