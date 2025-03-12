@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: darkslategray;
     color: white;
 }
 
@@ -27,29 +27,8 @@ ul {
     height: 100vh;
 }
 
-/* SHOWCASE */
-.showcase {
-    background: 
-    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
-    url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
-    height: 50%;
-}
-
-/* NAVIGATION */
-nav ul.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-}
-
-
-/* PLACE1 */
-/* PLACE2 */
-/* PLACE3 */
-
-/* CONTACT */
-section.showcase, section, section.contact, form, footer {
+/* GENERAL STYLES */
+section.showcase, section.section, section.contact, form, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +38,63 @@ section.showcase, section, section.contact, form, footer {
 
 }
 
-/* FOOTER */
+section.showcase, section.section, section.contact {
+    height: 100%;
+}
 
+
+/* SHOWCASE */
+.showcase {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
+}
+
+/* NAVIGATION */
+nav ul.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+}
+
+
+/* PLACE1 */
+section#place1 {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url(img/20240322_131825.jpg) no-repeat center center/cover fixed;
+}
+
+/* PLACE2 */
+section#place2 {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url(img/IMG-20240402-WA0083.jpg) no-repeat center center/cover fixed; 
+}
+
+/* PLACE3 */
+section#place3 {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url(img/20240322_100246.jpg) no-repeat center center/cover fixed; 
+}
+
+/* CONTACT */
+section.contact {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
+    url() no-repeat center center/cover fixed;
+}
+
+section.section iframe#youtube-video{
+    width: 90%;
+}
+
+/* FOOTER */
+footer {
+    background-color: grey;
+}
 
 /* COPYRIGHT */
