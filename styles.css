@@ -7,6 +7,10 @@
 body {
     background-color: darkslategray;
     color: white;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 a {
@@ -40,6 +44,13 @@ section.showcase, section.section, section.contact, form, footer {
 
 section.showcase, section.section, section.contact {
     height: 100%;
+}
+
+nav.navigation ul.nav-menu li a#logo, 
+section.showcase h1 {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -81,15 +92,16 @@ section#place3 {
     url(img/20240322_100246.jpg) no-repeat center center/cover fixed; 
 }
 
+/* YOUTUBE VIDEO */
+section.section iframe#youtube-video{
+    width: 90%;
+}
+
 /* CONTACT */
 section.contact {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
     url() no-repeat center center/cover fixed;
-}
-
-section.section iframe#youtube-video{
-    width: 90%;
 }
 
 /* FOOTER */
