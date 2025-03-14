@@ -46,6 +46,12 @@ section.showcase, section.section, section.contact {
     height: 100%;
 }
 
+nav.navigation, 
+footer {
+    padding: 15px;
+}
+
+
 nav.navigation ul.nav-menu li a#logo, 
 section.showcase h1 {
     font-family: "Playball", cursive;
