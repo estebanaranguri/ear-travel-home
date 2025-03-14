@@ -32,7 +32,7 @@ ul {
 }
 
 /* GENERAL STYLES */
-section.showcase, section.section, section.contact, form, footer {
+section.section, form, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,16 @@ section.showcase, section.section, section.contact, form, footer {
 
 }
 
-section.showcase, section.section, section.contact {
+section.section h1,
+section.section h2, 
+section.section p, 
+section.section iframe#youtube-video,
+form {
+    padding: 5px;
+    margin: 5px;
+}
+
+section.section {
     height: 100%;
 }
 
@@ -53,7 +62,7 @@ footer {
 
 
 nav.navigation ul.nav-menu li a#logo, 
-section.showcase h1 {
+section#showcase h1 {
     font-family: "Playball", cursive;
     font-weight: 400;
     font-style: normal;
@@ -61,7 +70,7 @@ section.showcase h1 {
 
 
 /* SHOWCASE */
-.showcase {
+#showcase {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
     url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
@@ -73,9 +82,14 @@ nav ul.nav-menu {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 40px;
+    height: 70px;
 }
 
+
+/* WELCOME */
+section#welcome {
+
+}
 
 /* PLACE1 */
 section#place1 {
@@ -104,7 +118,7 @@ section.section iframe#youtube-video{
 }
 
 /* CONTACT */
-section.contact {
+section#contact {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
     url() no-repeat center center/cover fixed;
