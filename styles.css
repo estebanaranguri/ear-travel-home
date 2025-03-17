@@ -31,6 +31,8 @@ ul {
     height: 100vh;
 }
 
+
+
 /* GENERAL STYLES */
 section.section, form, footer {
     display: flex;
@@ -76,6 +78,12 @@ section#showcase h1 {
     url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
 }
 
+#audio-showcase {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
 /* NAVIGATION */
 nav.navigation {
     width: 100%;
@@ -87,12 +95,6 @@ nav ul.nav-menu {
     text-align: center;
     align-items: center;
     height: 70px;
-}
-
-
-/* WELCOME */
-section#welcome {
-
 }
 
 /* PLACE1 */
@@ -123,14 +125,10 @@ section.section iframe#youtube-video{
 
 /* CONTACT */
 section#contact {
-    background: 
-    linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
-    url() no-repeat center center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288));
 }
 
 /* FOOTER */
 footer {
     background-color: grey;
 }
-
-/* COPYRIGHT */
