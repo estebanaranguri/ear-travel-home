@@ -38,7 +38,7 @@ section.section, form, footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    padding: 5px;
 
 }
 
@@ -77,6 +77,10 @@ section#showcase h1 {
 }
 
 /* NAVIGATION */
+nav.navigation {
+    width: 100%;
+}
+
 nav ul.nav-menu {
     display: flex;
     justify-content: space-between;
@@ -114,7 +118,7 @@ section#place3 {
 
 /* YOUTUBE VIDEO */
 section.section iframe#youtube-video{
-    width: 90%;
+    width: auto;
 }
 
 /* CONTACT */
