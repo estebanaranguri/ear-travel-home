@@ -78,12 +78,6 @@ section#showcase h1 {
     url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
 }
 
-#audio-showcase {
-    position: absolute;
-    bottom: 15%;
-    right: 5%;
-}
-
 /* NAVIGATION */
 nav.navigation {
     width: 100%;
