@@ -102,8 +102,8 @@ nav ul.nav-menu {
     flex-direction: column;
     align-items: end;
     text-align: right;
-    bottom: 0;
-    right: 0;
+    bottom: 2%;
+    right: 2%;
     padding: 2%;
     width: 52%;
 }
@@ -130,7 +130,7 @@ a#ear-guitar-web {
     text-decoration: underline;
 } 
 
-
+#audio-showcase,
 #volume-high,
 #pause-music {
     display: none;
