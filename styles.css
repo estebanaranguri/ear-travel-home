@@ -6,7 +6,7 @@
 
 body {
     background-color: #3C401A;
-    color: white;
+    color: #E5E3E1;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: white;
+    color: #E5E3E1;
     text-decoration: none;
 }
 
@@ -158,8 +158,9 @@ section#welcome {
 }
 
 /* DESTINATIONS */
-section#welcome, 
-section#contact {
+section#destinations, 
+footer,
+section#embeb-youtu-video {
     color: #3C401A;
     background-color: #E5E3E1;   
 }
