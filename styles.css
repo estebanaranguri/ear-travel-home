@@ -91,6 +91,12 @@ nav ul.nav-menu {
     height: 70px;
 }
 
+/* MUSIC PLAYER */
+#play-music,
+#pause-music {
+    cursor: pointer;
+}
+
 /* PLACE1 */
 section#place1 {
     background: 
