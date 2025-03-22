@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkslategray;
+    background-color: #3C401A;
     color: white;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
@@ -34,12 +34,35 @@ ul {
 
 
 /* GENERAL STYLES */
-section.section, form, footer {
+section.section, 
+form, 
+footer, 
+.music-player,
+.music-player-icons {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+nav ul.nav-menu,
+section.section, 
+form, 
+footer, 
+.music-player-icons {
     align-items: center;
+}
+
+nav ul.nav-menu, 
+section.section, 
+form, 
+footer{
     text-align: center;
+} 
+
+
+section.section, 
+form, 
+footer {
+    justify-content: center;
     padding: 5px;
 
 }
@@ -58,7 +81,9 @@ section.section {
 }
 
 nav.navigation, 
-footer {
+#showcase, 
+footer,
+.music-player {
     padding: 15px;
 }
 
@@ -76,35 +101,30 @@ section#showcase h1 {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
     url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
-    padding: 2%;
 }
 
 /* NAVIGATION */
 nav.navigation {
     width: 100%;
     position: fixed;
-    background-color: darkslategrey;
+    background-color: #3C401A;
     z-index: 4;
 }
 
 nav ul.nav-menu {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
     height: 70px;
 }
 
 /* MUSIC PLAYER */
+
 .music-player {
     position: absolute;
-    display: flex;
-    flex-direction: column;
     align-items: end;
     text-align: right;
     bottom: 2%;
     right: 2%;
-    padding: 2%;
     width: 52%;
 }
 .music-player p {
@@ -112,9 +132,6 @@ nav ul.nav-menu {
 }
 
 .music-player-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: auto;
 }
 
@@ -134,6 +151,17 @@ a#ear-guitar-web {
 #volume-high,
 #pause-music {
     display: none;
+}
+
+/* WELCOME */
+section#welcome {
+}
+
+/* DESTINATIONS */
+section#welcome, 
+section#contact {
+    color: #3C401A;
+    background-color: #E5E3E1;   
 }
 
 /* PLACE1 */
@@ -163,11 +191,6 @@ section.section iframe#youtube-video{
 }
 
 /* CONTACT */
-section#contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288));
-}
+
 
 /* FOOTER */
-footer {
-    background-color: grey;
-}
