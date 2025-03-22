@@ -168,7 +168,8 @@ section#embeb-youtu-video {
     background-color: #E5E3E1;   
 }
 
-section#destinations i#down-button {
+section#destinations i#down-button,
+section#contact ul li a i#up-button {
     color: #3C401A;
 }
 
@@ -200,8 +201,12 @@ section.section iframe#youtube-video{
 }
 
 /* CONTACT */
-section#contact i#up-button {    
-    transform: translate(1150%, 1110%);
+section#contact ul {    
+    transform: translate(700%, 900%);
+    background-color: #E5E3E1;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 
 /* FOOTER */
