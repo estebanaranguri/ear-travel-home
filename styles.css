@@ -93,7 +93,9 @@ nav ul.nav-menu {
 
 /* MUSIC PLAYER */
 #play-music,
-#pause-music {
+#pause-music,
+#volume-high,
+#volume-mute {
     cursor: pointer;
 }
 
