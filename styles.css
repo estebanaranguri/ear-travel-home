@@ -76,11 +76,15 @@ section#showcase h1 {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.288)),
     url(img/IMG-20240402-WA0053.jpg) no-repeat center center/cover fixed;
+    padding: 2%;
 }
 
 /* NAVIGATION */
 nav.navigation {
     width: 100%;
+    position: fixed;
+    background-color: darkslategrey;
+    z-index: 4;
 }
 
 nav ul.nav-menu {
@@ -92,16 +96,45 @@ nav ul.nav-menu {
 }
 
 /* MUSIC PLAYER */
+.music-player {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    padding: 2%;
+    width: 52%;
+}
+.music-player p {
+    font-size: 0.7rem;
+}
+
+.music-player-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
 #play-music,
 #pause-music,
 #volume-high,
 #volume-mute {
     cursor: pointer;
+    margin: 5px;
 }
 
 a#ear-guitar-web {
     text-decoration: underline;
 } 
+
+
+#volume-high,
+#pause-music {
+    display: none;
+}
 
 /* PLACE1 */
 section#place1 {
