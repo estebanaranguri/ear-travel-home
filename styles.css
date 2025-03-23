@@ -210,3 +210,111 @@ section#contact ul {
 }
 
 /* FOOTER */
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+
+    /* GENERAL STYLES */
+
+    section.section, 
+    form {
+        padding: 10px;
+
+    }
+
+    section.section h1,
+    section.section h2 {
+        font-size: 48px;
+    }
+
+    nav.navigation ul.nav-menu li a, 
+    section.section p, 
+    section.section#destinations ul li a, 
+    section.section#contact ul li a,  
+    form,
+    footer {
+        
+    }
+
+    section.section h1,
+    section.section h2, 
+    section.section p, 
+    section.section iframe#youtube-video,
+    form {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav.navigation, 
+    #showcase, 
+    footer,
+    .music-player {
+        padding: 30px;
+    }
+
+
+    /* SHOWCASE */
+
+    /* NAVIGATION */
+
+    nav ul.nav-menu {
+        height: 70px;
+    }
+
+    /* MUSIC PLAYER */
+
+    .music-player {
+        width: 70%;
+    }
+    .music-player p {
+        font-size: 1rem;
+    }
+
+    .music-player-icons {
+        width: auto;
+    }
+
+    #play-music,
+    #pause-music,
+    #volume-high,
+    #volume-mute,
+    #down-button {
+        margin: 10px;
+    }
+
+    /* WELCOME */
+
+
+    /* DESTINATIONS */
+
+
+
+
+
+    /* PLACE1 */
+
+
+    /* PLACE2 */
+
+
+    /* PLACE3 */
+
+
+    /* YOUTUBE VIDEO */
+    section.section iframe#youtube-video{
+        width: 95%;
+        height: 45%;
+    }
+
+    /* CONTACT */
+    section#contact ul {    
+        transform: translate(1500%, 950%);
+        width: 20px;
+        height: 20px;
+    }
+
+    /* FOOTER */
+
+}
+
