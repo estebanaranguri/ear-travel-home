@@ -42,7 +42,8 @@ section.section,
 form, 
 footer, 
 .music-player,
-.music-player-icons {
+.music-player-icons,
+section#contact ul {
     display: flex;
     flex-direction: column;
 }
@@ -51,7 +52,8 @@ nav ul.nav-menu,
 section.section, 
 form, 
 footer, 
-.music-player-icons {
+.music-player-icons,
+section#contact ul {
     align-items: center;
 }
 
@@ -201,12 +203,17 @@ section.section iframe#youtube-video{
 }
 
 /* CONTACT */
-section#contact ul {    
-    transform: translate(700%, 900%);
+section#contact ul {
+    justify-content: center;    
+    transform: translate(400%, 400%);
     background-color: #E5E3E1;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+section#contact i#up-button {
+    font-size: 20px;
 }
 
 /* FOOTER */
@@ -225,16 +232,17 @@ section#contact ul {
 
     section.section h1,
     section.section h2 {
-        font-size: 48px;
+        font-size: 35px;
     }
 
-    nav.navigation ul.nav-menu li a, 
+    nav.navigation a, 
     section.section p, 
     section.section#destinations ul li a, 
-    section.section#contact ul li a,  
-    form,
+    section.section#contact ul,  
+    form, 
+    section#contact i#up-button,
     footer {
-        
+        font-size: 22px;
     }
 
     section.section h1,
@@ -252,9 +260,6 @@ section#contact ul {
     .music-player {
         padding: 30px;
     }
-
-
-    /* SHOWCASE */
 
     /* NAVIGATION */
 
@@ -281,40 +286,21 @@ section#contact ul {
     #volume-mute,
     #down-button {
         margin: 10px;
+        font-size: 20px;
     }
-
-    /* WELCOME */
-
-
-    /* DESTINATIONS */
-
-
-
-
-
-    /* PLACE1 */
-
-
-    /* PLACE2 */
-
-
-    /* PLACE3 */
-
 
     /* YOUTUBE VIDEO */
     section.section iframe#youtube-video{
-        width: 95%;
+        width: 70%;
         height: 45%;
     }
 
     /* CONTACT */
     section#contact ul {    
-        transform: translate(1500%, 950%);
-        width: 20px;
-        height: 20px;
+        transform: translate(800%, 200%);
+        width: 40px;
+        height: 40px;
     }
-
-    /* FOOTER */
 
 }
 
