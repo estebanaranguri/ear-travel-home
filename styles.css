@@ -42,8 +42,7 @@ section.section,
 form, 
 footer, 
 .music-player,
-.music-player-icons,
-section#contact ul {
+.music-player-icons {
     display: flex;
     flex-direction: column;
 }
@@ -52,8 +51,7 @@ nav ul.nav-menu,
 section.section, 
 form, 
 footer, 
-.music-player-icons,
-section#contact ul {
+.music-player-icons {
     align-items: center;
 }
 
@@ -170,8 +168,7 @@ section#embeb-youtu-video {
     background-color: #E5E3E1;   
 }
 
-section#destinations i#down-button,
-section#contact ul li a i#up-button {
+section#destinations i#down-button {
     color: #3C401A;
 }
 
@@ -203,17 +200,28 @@ section.section iframe#youtube-video{
 }
 
 /* CONTACT */
-section#contact ul {
-    justify-content: center;    
-    transform: translate(400%, 400%);
+section.section#contact form input,
+section.section#contact form button#submit {
     background-color: #E5E3E1;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    border: none;
+    margin: 5%;
 }
 
-section#contact i#up-button {
-    font-size: 20px;
+section.section#contact form input {
+    padding: 5px;
+    color: #3C401A;
+}
+
+section.section#contact form button#submit {
+    cursor: pointer;
+    padding: 5px;
+    color: #3C401A;
+    border-radius: 10px;
+}
+
+section.section#contact form button#submit:hover {
+    background-color: black;
+    color: #E5E3E1;
 }
 
 /* FOOTER */
@@ -238,9 +246,7 @@ section#contact i#up-button {
     nav.navigation a, 
     section.section p, 
     section.section#destinations ul li a, 
-    section.section#contact ul,  
-    form, 
-    section#contact i#up-button,
+    form,
     footer {
         font-size: 22px;
     }
@@ -303,11 +309,10 @@ section#contact i#up-button {
     }
 
     /* CONTACT */
-    section#contact ul {    
-        transform: translate(800%, 200%);
-        width: 40px;
-        height: 40px;
+    section.section#contact form button#submit {
+        font-size: 20px;
     }
+
 
 }
 
@@ -343,15 +348,47 @@ section#contact i#up-button {
     }
 
     /* CONTACT */
-    section#contact ul {    
-        transform: translate(800%, 400%);
-        width: 50px;
-        height: 50px;
+    section.section#contact form button#submit {
+        font-size: 25px;
     }
 
-    section#contact i#up-button {
-        font-size: 2rem;
-    }
   }
 
+  @media only screen and (min-width: 1440px) {
+    
+    /* CONTACT */
+    
+    
+    section#contact {
+        padding: 5%;
+    }
 
+    section#contact h2 {
+        margin-top: 5%;
+    }
+
+    section#contact form label,
+    section#contact form input {
+        margin: 2%;
+        font-size: 2rem;
+    }    
+    
+    
+  }
+
+  @media only screen and (min-width: 1800px) {
+    
+    /* YOUTUBE VIDEO */
+    section.section iframe#youtube-video{
+        width: 40%;
+        height: 45%;
+    }
+
+    /* CONTACT */
+    section.section#contact p,
+    section.section#contact form button#submit {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+  }
