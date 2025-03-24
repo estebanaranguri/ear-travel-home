@@ -254,6 +254,13 @@ section#contact i#up-button {
         margin: 10px;
     }
 
+    section#showcase h1 {
+        font-size: 3rem;
+    }
+    section#showcase p {
+        font-size: 1.5rem;
+    }
+
     nav.navigation, 
     #showcase, 
     footer,
@@ -286,7 +293,7 @@ section#contact i#up-button {
     #volume-mute,
     #down-button {
         margin: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* YOUTUBE VIDEO */
@@ -303,4 +310,48 @@ section#contact i#up-button {
     }
 
 }
+
+
+@media only screen and (min-width: 1024px) {
+    
+    /* GENERAL STYLES */
+
+    section#showcase h1 {
+        font-size: 4rem;
+    }
+    
+    section#showcase p {
+        font-size: 2rem;
+    }
+
+    /* MUSIC PLAYER */
+
+    .music-player {
+        width: 70%;
+    }
+    .music-player p {
+        font-size: 1.3rem;
+    }
+
+    #play-music,
+    #pause-music,
+    #volume-high,
+    #volume-mute,
+    #down-button {
+        margin: 15px;
+        font-size: 20px;
+    }
+
+    /* CONTACT */
+    section#contact ul {    
+        transform: translate(800%, 400%);
+        width: 50px;
+        height: 50px;
+    }
+
+    section#contact i#up-button {
+        font-size: 2rem;
+    }
+  }
+
 
